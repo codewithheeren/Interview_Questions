@@ -362,12 +362,16 @@ ES6, also known as ECMAScript 2015, is a major update to the JavaScript language
 
 ----------------------------------------------------------------------
 
-**Java Script Coding Problems **
+**Java Script Coding Problems**
 
 1. Implement given concepts .
 
 Closure: Implement with one example
+
 Callback Functions: Write a function that takes a callback and invokes it.
+
 Promises: Implement a promise chain to make asynchronous API calls.
+
 Async/Await: Refactor a promise-based code into an async/await structure.
+
 Object-Oriented Programming: Create a class and demonstrate inheritance and encapsulation.
