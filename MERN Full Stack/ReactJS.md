@@ -1,5 +1,8 @@
-**REACTJS**
 
+# REACTJS
+
+
+## Inteview Questions
 1.	What is ReactJS and what are its advantages?
 2.	What is DOM?
 3.	What is the virtual DOM in ReactJS and how does it improve performance?
@@ -33,8 +36,8 @@
 31.	Which one is better, Redux or context API?
 32.	How does routing work in React?
 
-**Tips**
-```
+
+
 1. What is ReactJS and what are its advantages?
 ReactJS is a JavaScript library used for building user interfaces. Its advantages include improved performance due to its use of a virtual DOM, the ability to easily reuse components, and its modular architecture.
 Advantages of React ?
@@ -144,8 +147,6 @@ Answer: BrowserRouter and HashRouter are two types of routers in React Router. B
 22. How do you pass parameters in React Router? 
 Answer: You can pass parameters in React Router using URL parameters or query parameters. URL parameters are defined in the URL path and are accessed using the match.params object, while query parameters are defined in the URL query string and are accessed using the location.search object. Here is an example of passing a parameter using URL parameters: 
 
-php 
-Copy code 
 <Route path="/users/:id" component={User} /> 
 In the above example, the :id parameter is defined in the URL path, and can be accessed in the User component using this.props.match.params.id. 
 
@@ -185,4 +186,4 @@ Which one is better ?
 Redux , why ? 
 
 How routing works?
-```
+
