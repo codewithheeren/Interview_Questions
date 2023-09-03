@@ -38,8 +38,8 @@
 
 
 
-1. What is ReactJS and what are its advantages?
-ReactJS is a JavaScript library used for building user interfaces. Its advantages include improved performance due to its use of a virtual DOM, the ability to easily reuse components, and its modular architecture.
+- 1. What is ReactJS and what are its advantages?
+- ReactJS is a JavaScript library used for building user interfaces. Its advantages include improved performance due to its use of a virtual DOM, the ability to easily reuse components, and its modular architecture.
 Advantages of React ?
   1.Better performance 
   2.it use JSX - Java script syntax extension,  better readability 
