@@ -33,6 +33,17 @@
 30.	How many ways are there to pass data between components in React?
 31.	Which one is better, Redux or context API?
 32.	How does routing work in React?
+33. Which one is better ? Redux , why ? 
+34. How routing works?
+35. How would you add or remove element from virtual DOM?
+36.	Have you use Redux in you project? Can you give me an example?
+37. Tell me an example you spend time on trouble shooting on react code?
+38.	How do you develop a single page application to load faster?
+39.	Have you use any lazy loading at detail?40.	Have you use any cashing?
+41.	How do you do data binding?
+42.	Have you done any design with Figma?
+
+
 
 ## TIPS
 
@@ -43,37 +54,37 @@ Advantages of React ?
   1.Better performance   
   2.it use JSX - Java script syntax extension,  better readability   
   3.it can use server side as well as client side.  
-What is DOM ?
+
+What is DOM ?  
 What is the virtual DOM in ReactJS and how does it improve performance? 
 
 The virtual DOM in ReactJS is a lightweight representation of the actual DOM. It allows React to quickly compare the current state of the UI with the previous state and make only necessary updates, resulting in improved performance. 
 
 
-2.What is JSX and how is it used in ReactJS?
+2.What is JSX and how is it used in ReactJS?  
 JSX is a syntax extension for JavaScript that allows developers to write HTML-like code within their JavaScript files. It is used in ReactJS to create components with a more readable structure. 
 
-Can browser read JSX directly?
-No, browsers cannot read JSX directly. JSX is a syntax extension for   JavaScript and needs to be transform  into regular JavaScript using a tool like Babel before it can be executed by the browser. 
+Can browser read JSX directly?  
+No, browsers cannot read JSX directly. JSX is a syntax extension for  JavaScript and needs to be transform  into regular JavaScript using a tool like Babel before it can be executed by the browser. 
 
-What is the difference between JSX and html ? 
-Syntax: JSX uses a syntax similar to HTML, but with some differences. For example, instead of using class to define a class, you use className in JSX. Also, JSX tags must be closed, either with a closing tag (</tag>) or with a self-closing tag (<tag />). 
-
-Attributes: In JSX, you use camelCase for attribute names instead of kebab-case in HTML. For example, you would use className instead of class, and onClick instead of onclick. 
-Expressions: In JSX, you can embed JavaScript expressions within curly braces {}. This allows you to dynamically render content based on variables or functions. 
-Components: In JSX, you can define your own custom components using JavaScript functions or classes. This allows you to reuse code and create more complex UIs.
+What is the difference between JSX and html ?   
+Syntax: JSX uses a syntax similar to HTML, but with some differences. For example, instead of using class to define a class, you use className in JSX. Also, JSX tags must be closed, either with a closing tag (</tag>) or with a self-closing tag (<tag />).   
+Attributes: In JSX, you use camelCase for attribute names instead of kebab-case in HTML. For example, you would use className instead of class, and onClick instead of onclick.  
+Expressions: In JSX, you can embed JavaScript expressions within curly braces {}. This allows you to dynamically render content based on variables or functions.  
+Components: In JSX, you can define your own custom components using JavaScript functions or classes. This allows you to reuse code and create more complex UIs.  
 
 3.What is a component in ReactJS?  
 A react application  build up with Components.
-Component in react can be a java script class or a function.
-Component is Build with logic and UI as a template.
-A component in ReactJS is a reusable piece of code that defines the structure and behavior of a user interface element. 
-Components can be composed together to create complex interfaces 
+Component in react can be a java script class or a function.  
+Component is Build with logic and UI as a template.  
+A component in ReactJS is a reusable piece of code that defines the structure and behavior of a user interface element.   
+Components can be composed together to create complex interfaces.  
 
 5.Which version of react you have work?  
 React17 
 
-6.Write a simple hello React program ?  
-What is state in ReactJS and how does it differ from props?
+6.Write a simple hello React program ?     
+What is state in ReactJS and how does it differ from props?  
 State in ReactJS is a built react object that contain data or information about component. Component state can change over the time , whenever state will change the component will re render.
 Props, on the other hand, are passed down from a parent component and are read-only.
 How can you update the state of a component?
@@ -135,7 +146,7 @@ When the Greeting component is rendered, it will display "Hello, John!" as the g
 
 18. Functional components are stateless and only return JSX elements, while class components can have state and lifecycle methods. Functional components are simpler and easier to test, while class components provide more flexibility and functionality.
 
-19. What are hooks in react ?  
+19. What are hooks in react ?    
 Hooks in React are functions that allow you to use state and other React features in functional components. They were introduced in React 16.8 and provide a way to reuse stateful logic across multiple components.
 Some of the most commonly used hooks include useState, useEffect, useContext, and useRef. 
 The useState hook allows you to manage state in functional components, while useEffect lets you perform side effects such as fetching data or updating the DOM. The useContext hook provides a way to pass data through the component tree without having to manually pass props down through each level. The useRef hook is used to create a reference to a DOM element or a value that persists across renders. Overall, hooks provide a more flexible and powerful way to build React applications with functional components. 
@@ -172,7 +183,6 @@ Function components are simpler and easier to read and write, while class compon
 
 26. What is the difference between control component and uncontrol component?   
 In React, a controlled component is a component that is fully controlled by its parent component. This means that the parent component has full control over the state and behavior of the child component. The parent component passes down all the necessary props to the child component, and the child component does not have any internal state of its own. 
-
 On the other hand, an uncontrolled component is a component that manages its own state internally. The parent component does not have direct control over the state and behavior of the child component. Instead, the parent component can only provide initial values or callbacks to the child component. 
 
 The main difference between controlled and uncontrolled components is the level of control that the parent component has over the child component. Controlled components provide more control and are generally easier to manage, while uncontrolled components provide more flexibility and can be more complex to manage. The choice between controlled and uncontrolled components depends on the specific needs and requirements of the project. 
@@ -184,8 +194,5 @@ React.strict mode , what is the use of that ?
 28. How many ways to pass data between components ?   
 With the help of props,redux,call back function, context api 
 
-Which one is better ?   
-Redux , why ? 
 
-How routing works?
 

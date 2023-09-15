@@ -107,70 +107,71 @@
 
 1. where you can add java script code in your html page?
 2. what is variable and datatype? classification of data types?
-   variable and datatype
-   variable is the name of memory container.
-   data type is nothing but the type of data that is going to be store in varible.
-   var, let, const keywords use to create variables in java script.
-   data types are 2 types 
-   premitive data types - Number, String, Boolean, Null, Undefined
+   
+   Variable is the name of memory container.  
+   Data type is nothing but the type of data that is going to be store in varible.  
+   var, let, const keywords use to create variables in java script.  
+   data types are 2 types   
+   premitive data types - Number, String, Boolean, Null, Undefined  
    non premitive data types - Object, Array
 
-3. how many ways input can take from end user in java script ?
+3. how many ways input can take from end user in java script?  
    prompt, input fields ,confirm
    
-4. how many ways display output in java script ?
+4. how many ways display output in java script ?  
    alert, console.log, document.write
    
-5. how to typecaste values in java script ?
-   string to int -> parseInt(str) , Number(str)
-   string to float -> parseFloat(str)
-   number,float to string -> num.toString() String(num)
-   string -> boolean - Boolean(str)
-   number to character -> String.fromCharCode(number)
-   character to number ->
-    let char  = 'A';
-    let unicode = char.charCodeAt();
-    console.log(unicode); 
+5. how to typecaste values in java script ?  
+   string to int -> parseInt(str) , Number(str)  
+   string to float -> parseFloat(str)  
+   number,float to string -> num.toString() String(num)  
+   string -> boolean - Boolean(str)  
+   number to character -> String.fromCharCode(number)  
+   character to number ->  
+    let char  = 'A';  
+    let unicode = char.charCodeAt();  
+    console.log(unicode);   
 	
 6. how many types of operators ?
 
-7. how many ways loop can be define in js ?
-   for, while, do-while, forEach (using for keyword), in and of keyword
-   for(key in employeeObject){
-        console.log(key+" - "+employeeObject[key]);
-    }  
+7. how many ways loop can be define in js ?  
+   for, while, do-while, forEach (using for keyword), in and of keyword  
+   for(key in employeeObject){  
+        console.log(key+" - "+employeeObject[key]);  
+    }   
 	if you use 'of' here it will directly provide value.	
 
-8. How many ways we can declear array in js ?
+8. How many ways we can declear array in js?  
     var array = ["value1","value2","value3"];
     console.log(array);
 
-    var array = new Array(5);
-    array[0] = 10;
-    array[1] = 20;
-    console.log(array);
+    var array = new Array(5);  
+    array[0] = 10;  
+    array[1] = 20;  
+    console.log(array);  
 
-    var array = new Array(10,20,30);
-    console.log(array);
+    var array = new Array(10,20,30);  
+    console.log(array);  
 	if you use 'in' with array it will directly provide index value of values.
 	
-9. how many types of values you can put inside array ?
+9. how many types of values you can put inside array ?  
 
-  var array2 = [22.5,"hi",[1,2,3],{"key1":"value1","key2":"value2"},function(){console.log("I am function")}];
-  console.log(array2[2][2]);
-  console.log(array2[3].key2);
-  array2[4]();
+  var array2 = [22.5,"hi",[1,2,3],{"key1":"value1","key2":"value2"},function(){console.log("I am function")}];  
+  console.log(array2[2][2]);  
+  console.log(array2[3].key2);  
+  array2[[4]]();  
 
 10. difference between var, let and const ?
 
-11. when NAN error comes ?
-     var y = "3b";
-     var y = "a34"; //NAN , NOT ALLOWED TO TYPECASTE
-     y = parseInt(y);
-     console.log(x+y);
+11. when NAN error comes ?  
+     var y = "3b";  
+     var y = "a34";   
+     //NAN , NOT ALLOWED TO TYPECASTE  
+     y = parseInt(y);  
+     console.log(x+y);  
 	 
-12. how many ways we can declear function in js ?
-    
+12. how many ways we can declear function in js?
+```    
 	//1
     function demoFunction1(){
         console.log("Welcome to demoFunction1");
@@ -189,10 +190,13 @@
         console.log("Welcome to demoFunction3");
     }
     demoFunction3();
-	
-13. what is call back function ?
-		var loginSuccess = function () { 
-            console.log("Login successful"); 
+```
+---	
+13. what is call back function ?  
+A callback function is a function that is passed as an argument to another function and is executed after the completion of that function. Callback functions are often used in asynchronous programming, such as when handling events, making network requests, or reading files.   
+```
+		var loginSuccess = function () {  
+            console.log("Login successful");   
         }
 
         var loginFailed = function () { 
@@ -206,165 +210,181 @@
                 function2();
         }
         validateUser("admin23",loginSuccess,loginFailed );
+```
+---
+14. what is destructuring and what is rest parameters?  
 
-14. what is destructuring and what is rest parameters?
-	var [a,b,c,d,e] = params;
+Destructuring in JavaScript allows you to extract values from objects and arrays into separate variables.  
+	var [a,b,c,d,e] = params;  
 
-15. how to handle exceptions ? what are the key concepts of exceptions are in java script ?
-	try, catch, finally, throw, exceptions will automatically forward in calling chain
+  
+Rest parameters in JavaScript allow you to represent an indefinite number of function arguments as an array.
+```
+function sum(...numbers) {
+  return numbers.reduce((total, num) => total + num, 0);
+}
+
+console.log(sum(1, 2, 3, 4, 5));  
+Outputs: 15
+```
+---
+15. how to handle exceptions ? what are the key concepts of exceptions are in java script ?  
+try, catch, finally, throw, exceptions will automatically forward in calling chain
 	
-16. how many ways you can define string ?
+16. how many ways you can define string ?  
 	``, "", ''
 	
-17. how to print variables in string?
+17. how to print variables in string?  
 	`${variable}`
 	""+variable+""
 
-18. names string handling methods?
-    length
-	toUpperCase
-	toLowerCase
-	split(" ")
-	subString(firstIndex, lastIndex)
-	charAt
-	indexOf
-	replace
-	trim
-	toString
+18. what are the different string handling methods use in java script?    
+length  
+toUpperCase  
+toLowerCase  
+split(" ")  
+subString(firstIndex, lastIndex)  
+charAt  
+indexOf  
+replace  
+trim  
+toString  
 	
-19. How many ways we can do logging ?
-    info
-	debug
-	warn
-	error
-	log
+19. How many ways we can do logging ?  
+info  
+debug  
+warn  
+error  
+log  
 	
-20. how many types of Elements selectors in JS ?
-    getElementById
-    getElementsByName
-    getElementsByTagName
-	querySelector - 
-	               document.querySelector("#p1")
-				   document.querySelectorAll(".pClass")[1]
-				   document.querySelectorAll("p")[0]
+20. how many types of Elements selectors in JS ?  
+getElementById  
+getElementsByName  
+getElementsByTagName  
+querySelector -   
+document.querySelector("#p1")   
+document.querySelectorAll(".pClass")[1]  
+document.querySelectorAll("p")[0]  
 				 
-21. What are the different attributes for any html element we can access using selector ?
+21. What are the different attributes for any html element we can access using selector ?  
 value (input, select,text area),textContent, inner Text, inner HTML, outer HTML (p,div,span), style(style.csspropname eg. - style.color)
 
 22. Difference between innerHTML Vs OuterHtml ?
 
-23. How to read params/query strings from URL?
-url - localhost:8080/projectname?username=heeren&password=123
- var params = new URLSearchParams(location.search);
- var username = params.get("username");
- var password = params.get("password");
+23. How to read params/query strings from URL?  
+url - localhost:8080/projectname?username=heeren&password=123  
+ var params = new URLSearchParams(location.search);  
+ var username = params.get("username");  
+ var password = params.get("password");  
  
-24. How to generate random digit using js ?
+24.How to generate random digit using js ?
 Math.round(Math.random() * 10);
 
 25.What is function clouser?
 
-26.what is the different functions use in arrays such as filter, map, reduce and sort function ?Give an example ?
-  eg1. - get only the users having age more then 20
-  var users = [
+26.what is the different functions use in arrays such as filter, map, reduce and sort function ?Give an example ?  
+eg1. - get only the users having age more then 20  
+```
+var users = [
     {id: 1,name: "Eban", age:25},
     {id: 2,name: "Bob", age:30},
     {id: 3,name: "John", age:20},
-  ]
-  var filteredUsers = users.filter(user => user.age > 20)
-                           .map(user => ({id:user.id, name:user.name}));
-  console.log(filteredUsers);
-  
-  eg2. reduce - sum of all numbers in an array
-  array.reduce((result,num) => result+num,0)
+]
+var filteredUsers = users.filter(user => user.age > 20).map(user => ({id:user.id, name:user.name}));  
+console.log(filteredUsers);
+```  
+eg2. reduce - sum of all numbers in an array
+array.reduce((result,num) => result+num,0)
+```
+eg3.
+array = array.sort((a,b) => (a-b)); 
+for string sorting - localeCompare
+var fruits = ["banana","cherry","apple","grapes"];
+fruits = fruits.sort((a,b) => a.localeCompare(b));
+```
+---	
+27.How many ways we can create object in java script ?  
+2 ways.-  
+using class  
+directly creation of object
 
-  eg3. array = array.sort((a,b) => (a-b)); 
-  for string sorting - localeCompare
-    var fruits = ["banana","cherry","apple","grapes"];
-    fruits = fruits.sort((a,b) => a.localeCompare(b));
-	
-27. How many ways we can create object in java script ?
-      2 ways.-
-	  1. using class
-	  2. directly creation of object
+28.what is constructor in js ? and how to use it ?  
+More then one constructor can not define in  a class in java script.
 
-28. what is constructor in js ? and how to use it ?
-	*more then one constructor can not define in  a class in java script.
+29.what are the memebers in the class ?  
+1. property - represent object property
+2. method - kind of function
+3. constructor - it is use to initilize class proprties
+4. accessor - use to access proprties
 
-29. what are the memebers in the class ?
-    1. property - represent object property
-    2. method - kind of function
-    3. constructor - it is use to initilize class proprties
-    4. accessor - use to access proprties
+30.how to access class property within a class and outside the class ?  
+class property access with in a class using this keyword   
+class property access outside the  class using class object. 
 
-30. how to access class property within a class and outside the class ?
-class property access with in a class using this keyword 
-class property access outside the  class using class object 
+31.what are the different types of events ?  
+classifications-  
+	1. mouse event  
+	2. keyboard event  
+	3. button event  
+	4. Touch event  
 
-31. what are the different types of events ?
-classifications-
-	1. mouse event
-	2. keyboard event
-	3. button event
-	4. Touch event
+31. how many ways we can bind event with function ?  
+in 2 ways -  
+onClick = "functionName()"  
+htmlElementObj.addEventListener("click", () => {});  
 
-31. how many ways we can bind event with function ?
-in 2 ways - 
-onClick = "functionName()"
-htmlElementObj.addEventListener("click", () => {});
-
-32. what is inheritance ? what is the rule for constructor in inheritance?
+32. what is inheritance ? what is the rule for constructor in inheritance?  
 If base class is having constructor then it must call from the child class
 constructor.calling define like - super();
 
-33. Name some events in java script?
-on body load -onload
-input - onInput
-button - onClick
-onmouseout
-mouserover
-mouseup
-mousedown
-mousemove
-on key up
-on key down
+33. Name some events in java script?  
+on body load -onload  
+input - onInput  
+button - onClick  
+onmouseout  
+mouserover  
+mouseup  
+mousedown  
+mousemove  
+on key up  
+on key down   
 
-34. what is module ?
+34. what is module ?  
 module is the collection of functions, values and classes.
 modules are use to build libraries.
 every java script file is cosidered as module
 
-35. how to export module ?
-36. ES6 Features ?
-ES6, also known as ECMAScript 2015, is a major update to the JavaScript language that introduced several new features and improvements. Some of the key features of ES6 include: 
+35. how to export module ?  
+36. ES6 Features ?  
+ES6, also known as ECMAScript 2015, is a major update to the JavaScript language that introduced several new features and improvements. Some of the key features of ES6 include:  
 
-1. Arrow functions: A shorthand way to write functions that are more concise and easier to read. 
+1.Arrow functions: A shorthand way to write functions that are more concise and easier to read. 
 
-2. Let and const keywords: A new way to declare variables that provides block scope and prevents accidental reassignment. 
+2.Let and const keywords: A new way to declare variables that provides block scope and prevents accidental reassignment. 
 
-3. Template literals: A new way to create strings that allows for variable interpolation and multi-line strings. 
+3.Template literals: A new way to create strings that allows for variable interpolation and multi-line strings. 
 
-4. Classes: A new syntax for creating object-oriented classes in JavaScript. 
+4.Classes: A new syntax for creating object-oriented classes in JavaScript. 
 
-5. Default function parameters: A way to set default values for function parameters. 
+5.Default function parameters: A way to set default values for function parameters. 
 
-6. Rest and spread operators: A way to work with arrays and objects more easily. 
+6.Rest and spread operators: A way to work with arrays and objects more easily. 
 
-7. Destructuring assignment: A way to extract values from arrays and objects into separate variables. 
+7.Destructuring assignment: A way to extract values from arrays and objects into separate variables. 
 
-8. Promises: A new way to handle asynchronous operations in JavaScript. 
+8.Promises: A new way to handle asynchronous operations in JavaScript. 
 
-9. Modules: A new way to organize and share code between files and projects. 
+9.Modules: A new way to organize and share code between files and projects. 
 
-10. Iterators and generators: A way to work with collections of data more easily.
+10.Iterators and generators: A way to work with collections of data more easily.
 
 37. what is default function paramenters ?
 
-----------------------------------------------------------------------
+---
 
 **Java Script Coding Problems**
 ```
-1. Implement given concepts .
+1.Implement given concepts .
 Closure: Implement with one example
 Callback Functions: Write a function that takes a callback and invokes it.
 Promises: Implement a promise chain to make asynchronous API calls.
