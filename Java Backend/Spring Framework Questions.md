@@ -67,6 +67,7 @@ Explain the execution flow of spring mvc application ?
 14. What is the difference between @RestController and @Controller ? 
 15. How did you handle exceptions in your restful service project ?
 16. What is payload ?
+17. what is the flow of execution of rest api application?
 <!-- hidden comment- PENDING QUESTIONS- 
 What is the role of the @Scheduled annotation in Spring Boot?
 What is the purpose of the @Cacheable annotation in Spring Boot?
