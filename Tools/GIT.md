@@ -31,6 +31,9 @@
 26.	How do you push changes to a remote repository in Git?
 27.	How do you pull changes from a remote repository to your local repository in Git?
 28.	What is the difference between Git merge and Git rebase?
+29. How to sink new updates from remote master branch to local master branch? 
+30. How do you revert a commit in Git?
+31. What is the difference between Git pull and Git fetch?
 
 <!-- 
 1.	Check the git version: git --version
