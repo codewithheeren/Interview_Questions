@@ -32,7 +32,7 @@
 27.	How do you pull changes from a remote repository to your local repository in Git?
 28.	What is the difference between Git merge and Git rebase?
 
-[//]: # (  ------------------comments ---------------------------
+<!-- 
 1.	Check the git version: git --version
 2.	Configure username: git config --global user.name "Your Username"
 3.	Configure email: git config --global user.email "your@email.com"
@@ -115,4 +115,4 @@ Add and commit the resolved merge conflict with a message like "Resolved merge c
 Push the changes to update the remote branch, in this case, the master branch.
 Verify the updates on the remote repository to confirm the successful resolution of the merge conflict.
 
-Questions only - )
+-->
