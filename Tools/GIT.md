@@ -2,6 +2,37 @@
 
 
 ## Inteview Questions
+
+1.	How do you check the Git version?
+2.	What is the command to configure your username globally in Git?
+3.	How can you configure your email globally in Git?
+4.	How does Git handle passwords? What methods are used for authentication?
+5.	What command can be used to check the existing username from the global configuration?
+6.	What command is used to clone a project from a repository URL?
+7.	How do you initialize Git for a project?
+8.	What command is used to check the status of your Git repository?
+9.	What are the different areas in Git before committing, and what do they represent?
+10.	How can you untrack unmodified, modified, and staged files in Git?
+11.	How do you add a new file to the staging area in Git?
+12.	What is the command to commit a new file along with a commit message?
+13.	How do you check the commit logs in Git?
+14.	How can you check a specific number of commit logs in Git?
+15.	What command is used to check the changes between the staging area and the local file?
+16.	How do you compare the changes between the staging area and the last commit?
+17.	What is the command to remove a file from the Git directory?
+18.	How do you create a new file in Git using the command line?
+19.	What is the command to create a new branch in Git?
+20.	How can you check the list of branches in Git?
+21.	How do you switch from one branch to another branch in Git?
+22.	What is the command to switch to a new branch and create it simultaneously?
+23.	How do you merge branches in Git?
+24.	How do you add a remote repository named "origin" in Git?
+25.	What command is used to check the repository URLs for push and pull in Git?
+26.	How do you push changes to a remote repository in Git?
+27.	How do you pull changes from a remote repository to your local repository in Git?
+28.	What is the difference between Git merge and Git rebase?
+
+[//]: # (  ------------------comments ---------------------------
 1.	Check the git version: git --version
 2.	Configure username: git config --global user.name "Your Username"
 3.	Configure email: git config --global user.email "your@email.com"
@@ -84,33 +115,4 @@ Add and commit the resolved merge conflict with a message like "Resolved merge c
 Push the changes to update the remote branch, in this case, the master branch.
 Verify the updates on the remote repository to confirm the successful resolution of the merge conflict.
 
-Questions only - 
-1.	How do you check the Git version?
-2.	What is the command to configure your username globally in Git?
-3.	How can you configure your email globally in Git?
-4.	How does Git handle passwords? What methods are used for authentication?
-5.	What command can be used to check the existing username from the global configuration?
-6.	What command is used to clone a project from a repository URL?
-7.	How do you initialize Git for a project?
-8.	What command is used to check the status of your Git repository?
-9.	What are the different areas in Git before committing, and what do they represent?
-10.	How can you untrack unmodified, modified, and staged files in Git?
-11.	How do you add a new file to the staging area in Git?
-12.	What is the command to commit a new file along with a commit message?
-13.	How do you check the commit logs in Git?
-14.	How can you check a specific number of commit logs in Git?
-15.	What command is used to check the changes between the staging area and the local file?
-16.	How do you compare the changes between the staging area and the last commit?
-17.	What is the command to remove a file from the Git directory?
-18.	How do you create a new file in Git using the command line?
-19.	What is the command to create a new branch in Git?
-20.	How can you check the list of branches in Git?
-21.	How do you switch from one branch to another branch in Git?
-22.	What is the command to switch to a new branch and create it simultaneously?
-23.	How do you merge branches in Git?
-24.	How do you add a remote repository named "origin" in Git?
-25.	What command is used to check the repository URLs for push and pull in Git?
-26.	How do you push changes to a remote repository in Git?
-27.	How do you pull changes from a remote repository to your local repository in Git?
-28.	What is the difference between Git merge and Git rebase?
-
+Questions only - )
