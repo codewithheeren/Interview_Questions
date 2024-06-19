@@ -117,8 +117,8 @@ Choose to keep both changes if necessary and click "Apply."
 Add and commit the resolved merge conflict with a message like "Resolved merge conflict."
 Push the changes to update the remote branch, in this case, the master branch.
 Verify the updates on the remote repository to confirm the successful resolution of the merge conflict.
-
--->
+---
+```java
 git --version
 
 To initialize git
@@ -174,7 +174,7 @@ git merge featurebranchname
 
 git clone “url from where we want to make clone.”
 
-—----------rough commands for reference —--------------
+**random operations reference commands for reference**
 git config --global user.name
 git config --global user.name
 git config --global user.password
@@ -277,3 +277,5 @@ git checkout master
 git merge feature1
 git clone https://github.com/codewithheeren/Java.git
 history
+```
+---
