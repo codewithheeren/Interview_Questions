@@ -119,3 +119,161 @@ Push the changes to update the remote branch, in this case, the master branch.
 Verify the updates on the remote repository to confirm the successful resolution of the merge conflict.
 
 -->
+git --version
+
+To initialize git
+git init   
+
+To set username
+git config --global user.name ‘newusername’
+
+To check username
+git config --global user.name
+
+Similarly password and email can also be set:
+git config --global user.password 
+git config --global user.email
+
+Phases of any file with git:
+Untracked area
+Untracked to staged 
+Stage to commit area
+
+Staged area:
+Just before you commit your changes 
+
+Repository / commit changes:
+After committing staged area changes, push changes to repository
+
+git status
+
+git add -A    |  git add .
+All files from current directory
+
+git add nameofthefile.txt
+
+Commit:
+git commit -m “first commit” 
+
+To check the last commits:
+git log
+
+Show the changes between local file and git repository file:
+git diff 
+
+Show the changes between staged file and git repository file:
+git diff  --staged
+
+Will undo changes in local file and will load the git repository file:
+git checkout -f
+
+git branch
+git checkout branchname
+git checkout -b branchname
+git merge featurebranchname
+
+git clone “url from where we want to make clone.”
+
+—----------rough commands for reference —--------------
+git config --global user.name
+git config --global user.name
+git config --global user.password
+git config --global user.email
+git --version
+git config --global user.name
+git init
+git status
+git add Hello.java
+git status
+git commit -m 'this is my first commit.'
+git status
+git status
+git add -A
+git status
+git commit -m "my second commit "
+git status
+git log
+git log -p -1
+git status
+git init
+git status
+git add .
+git commit -m "first commit"
+git status
+git staus
+git log
+git checkout -f
+git add .
+git commit -m "second commit"
+git checkout -f
+git diff
+git add .
+git diff
+git diff -staged
+git diff -stage
+git diff --staged
+git diff --staged
+git --version
+git init
+git config --global user.name
+git config --global user.name heeren
+git config --global user.name
+git config --global user.name codewithheeren
+git config --global user.name
+git config --global user.email
+git status
+git status
+git add hello.java
+git status
+git commit -m "this is my first commit."
+git status
+git status
+git add .
+git status
+git commit -m "my changes done with second commit"
+git status
+git log
+git log -p -1
+git status
+git checkout -f
+git diff
+git init
+git status
+git add .
+git commit -m "first commit"
+got branch
+git branch
+git checkout -b feature1
+git branch
+git status
+git checkout -f
+git add .
+git diff -staged
+git diff --staged
+git branch
+git branch branch1
+git branch
+git branch branch2
+git branch
+git checkout branch1
+git branch
+git checkout branch2
+git branch
+git checkout -b branch3
+git branch
+git branch -r branch1
+git branch -rm branch1
+git branch -d branch1
+git branch
+git status
+git add .
+git commit -m "first commit on feature branch"
+git status
+git log
+git checkout master
+git checkout featrue1
+git checkout feature1
+git checkout master
+git merge feature1
+git clone https://github.com/codewithheeren/Java.git
+history
