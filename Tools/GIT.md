@@ -35,7 +35,7 @@
 30. How do you revert a commit in Git?
 31. What is the difference between Git pull and Git fetch?
 
----
+<!---
 1.	Check the git version: git --version
 2.	Configure username: git config --global user.name "Your Username"
 3.	Configure email: git config --global user.email "your@email.com"
@@ -117,7 +117,7 @@ Choose to keep both changes if necessary and click "Apply."
 Add and commit the resolved merge conflict with a message like "Resolved merge conflict."
 Push the changes to update the remote branch, in this case, the master branch.
 Verify the updates on the remote repository to confirm the successful resolution of the merge conflict.
-
+--->
 ---
 ```java
 git --version
