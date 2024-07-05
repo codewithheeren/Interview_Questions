@@ -98,7 +98,7 @@ Grouping Data
 render employee details with departement name having highest salary in each department.         
 Calculate the average salary for each department and order the results by the average salary in descending order.    
 
-Scenario 2: Sales Database
+Scenario 2: Sales Database    
 Problem Statement:
 You have two tables, orders and customers. The orders table includes: order_id, customer_id, order_date, order_amount. The customers table includes: customer_id, customer_name, customer_city.   
 
