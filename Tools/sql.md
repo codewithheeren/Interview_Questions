@@ -91,3 +91,38 @@ Grouping Data
 11.2 Use aggregate functions to find the average age of employee in each class.    
 11.3 Use HAVING to filter groups based on an aggregate function (e.g., groups with an average age greater than a certain value).    
 
+ ---
+ **Scenario Based Problems**
+ 
+ Scenario 1: Create 2 tables employee and deparement . employee -> empid,name,salary,deptid   department- deptid, deptname.    
+render employee details with departement name having highest salary in each department.         
+Calculate the average salary for each department and order the results by the average salary in descending order.    
+
+Scenario 2: Sales Database
+Problem Statement:
+You have two tables, orders and customers. The orders table includes: order_id, customer_id, order_date, order_amount. The customers table includes: customer_id, customer_name, customer_city.   
+
+Find the total sales amount for each customer in the city 'New York'.    
+List the customers who have placed more than 5 orders along with the number of orders they have placed.     
+
+Scenario 3: Product Inventory    
+Problem Statement:    
+You have a products table with the following columns: product_id, product_name, category_id, price, stock_quantity.   
+
+Identify products that are out of stock.    
+Find the category with the highest total stock value (price * stock_quantity).  
+
+Scenario 4: Education Management System     
+Problem Statement:    
+You have two tables, students and courses. The students table includes: student_id, student_name, age, grade. The courses table includes: course_id, course_name, student_id, grade.    
+    
+List all students who have taken the course 'Database Systems' and received a grade of 'A'.   
+Calculate the average grade for each student and list students whose average grade is above 85.    
+
+Scenario 5: Library Management      
+Problem Statement:    
+You have a books table with the following columns: book_id, title, author_id, published_year, available_copies. And an authors table with author_id, author_name, birth_year.    
+
+Find authors who have written more than 3 books.    
+List all books published before the year 2000 that are currently out of stock    
+
