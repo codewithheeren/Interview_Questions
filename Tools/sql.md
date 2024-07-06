@@ -14,7 +14,7 @@ Create 2 different tables: Emp Table(Emp ID, Name, DeptId, Country Name, City Na
 Dept Table(Dept Id, Dept Name)
 
 8. Alter the table(add, remove and modify column datatype), rename table
-9. IN, NOT IN, BETWEEn, ORDER BY
+9. IN, NOT IN, BETWEEN, ORDER BY
 10. Joins
 11. View(Create and Drop)
 12. Advantages of views
