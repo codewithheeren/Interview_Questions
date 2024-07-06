@@ -1,7 +1,7 @@
 1. what are the difference between sql and nosql database   
 2. What is ACID properties in database    
 3.1 What is normalization and denormalization     
-3.2 Explain different sql queries types.     
+3.2 Explain different sql queries types           
 4. What is truncate keyword        
 5. What is indexing in SQL     
 6. What is diff b/w primary key and unique key      
