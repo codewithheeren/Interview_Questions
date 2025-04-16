@@ -204,7 +204,7 @@
 188. What are the main features of Java 8?
 189. What is a lambda expression in Java 8? Where you use it in your project ?
 190. What is a functional interface? How is it different from a normal interface?
-191. What are some built-in functional interfaces in Java 8?
+191. What are some built-in functional interfaces in Java 8?     
      (E.g., Predicate, Function, Consumer, Supplier, etc.)
 192. What is the role of the @FunctionalInterface annotation? Is it required?
 193. What are default and static methods in interfaces? Why were they added in Java 8?
