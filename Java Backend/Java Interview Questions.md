@@ -196,5 +196,31 @@
 183.	What is the advantage of using Concurrent collection?
 184.	How concurrent hash map internally works ? How it is differ with hash map ?
 185.	How copy on write array list works ? what is the disadvatge of using it ?
-186.    What is the contract between equals and hashcode method ?
-187.    What is the difference between fail-fast and fail-safe Iterators?
+186.  What is the contract between equals and hashcode method ?
+187.  What is the difference between fail-fast and fail-safe Iterators?
+
+**Java 8**
+
+188. What are the main features of Java 8?
+189. What is a lambda expression in Java 8? Where you use it in your project ?
+190. What is a functional interface? How is it different from a normal interface?
+191. What are some built-in functional interfaces in Java 8?
+     (E.g., Predicate, Function, Consumer, Supplier, etc.)
+192. What is the role of the @FunctionalInterface annotation? Is it required?
+193. What are default and static methods in interfaces? Why were they added in Java 8?
+194. How do you resolve conflicts when two interfaces have the same name of default method?
+195. What is the Predicate interface used for? Provide a practical example.
+196. How do and(), or(), and negate() work in the Predicate interface?
+197. What is the purpose of the Function interface?
+198. What is the use of Consumer interface? 
+199. What is the Supplier<T> interface?
+200. Explain the benefits of using Optional in Java 8. How does it help avoid NullPointerException?
+201. What is the difference between Optional.of(), Optional.ofNullable(), and Optional.empty()?
+202. What is the Java 8 Date-Time API (java.time)? How it is differ form java util date time?
+203. what is method reference ? and what are the different types of method reference ?
+204. What is the Java 8 Stream API, and how is it different from a Collection?
+205. What is the different between types of operations in streams? and what are their differences?
+206. What are the methods you frequently use in stream api?
+207. What is the difference between map() and flatMap() in the Stream API?
+208. What is reduce() in Stream API? Give an example?
+209. What is parallel stream ? how it is differ from normal stream ? give me one implementation example ?
