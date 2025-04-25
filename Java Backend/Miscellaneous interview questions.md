@@ -1,6 +1,6 @@
 **IQ1**
 1.	What is the difference between Collection and Stream API ? Which one is faster ? What are the advantages of using stream API over collection ?        
-2.  What is parallel stream in Java ? Do one implementation of parallel streams.          
+2.  What is parallel stream in Java ? (Do one implementation of parallel streams)              
 3.  Where to use wrapper class while primitives are already there ?         
 4.  How to create a custom wrapper class ?          
 5.  What is stack overflow and when it comes ?            
