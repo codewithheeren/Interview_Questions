@@ -20,36 +20,40 @@
 20. What is distributed trasactions in microservices ? How do you deal with them ?
 21. What do you mean by scaling in microservices ?
 22. What are the various microservices pattern you are familier with ?
-23. Explain CQRS Pattern, API Gateway pattern(Integration pattern), Stangulation Pattern(Decomposition pattern), Saga pattern(Database pattern), Cross cutting concern pattern (External config, Service Discovery, Circuit breaker), Observe ability pattern (Zipkin, Sleuth)
-24. Difference between spain Id and Trace id ?
-25. What is 12 factors principles in Microservices? 
-26. What is CQRS? 
-27. How do you design a microservices-based application? 
-28. Difference between Synchronous and Asynchronous communication between microservices 
-29. How to create microservices 
-30. How to monitor and trace microservice requests 
-31. Why are we using Sleuth and Zipkin and How 
-32. How did you debug issues in your microservices-based application? 
-33. Which load balancer using in microservice and how to implements 
-34. Describe the difference between client-side load balancing and server-side load balancing in microservices. 
-35. How do you ensure security in a microservices architecture? (e.g., JWT, OAuth2, API Gateway) 
-36. What are circuit breakers and fallback methods, and why are they important in microservices? 
-37. Diff b/w Microservices and webservice or Diff b/w Microservices and WebApi? 
-38. Advantages/Disadvantages of Api-Gateway? 
-39. How to communicate b/w Microservices? 
-40. What are different types of load balancer? 
-41. what is role and responsibility of API Gateway and explain how to create 
-42. Explain threshold in circuit breaker @CircuitBreaker annotation 
-43. How to do Synchronous communication between microservices ? 
-44. What is distributed tracing(Sleuth) ? 
-45. What is API Documentation(Swagger)? 
-46. Explain @PostConstruct and @PreDestroy, @Async and @EnableAsync 
-47. Explain the concepts of service discovery and load balancing in microservices. 
+23. What is CQRS? 
+24. Explain following microservices Patterns-    
+     API Gateway pattern(Integration pattern)    
+     Stangulation Pattern(Decomposition pattern)     
+     Saga pattern(Database pattern)     
+     Cross cutting concern pattern (External config, Service Discovery, Circuit breaker)     
+     Observe ability pattern (Zipkin, Sleuth)
+25. Why we use API Gateway is it used in microservices?    
+26. Difference between spain Id and Trace id ?
+27. What is 12 factors principles in Microservices? 
+28. How do you design a microservices-based application? 
+29. Difference between Synchronous and Asynchronous communication between microservices?
+30. Explain the concepts of service discovery and load balancing in microservices?
+31. How to monitor and trace microservice requests ?
+32. Why and how we use Sleuth and Zipkin ?    
+33. How did you debug issues in your microservices-based application? 
+34. Which load balancer using in microservice and how to implements 
+35. Describe the difference between client-side load balancing and server-side load balancing in microservices. 
+36. How do you ensure security in a microservices architecture? (e.g., JWT, OAuth2, API Gateway) 
+37. What are circuit breakers and fallback methods, and why are they important in microservices? 
+38. Diff b/w Microservices and webservice or Diff b/w Microservices and WebApi? 
+39. Advantages/Disadvantages of Api-Gateway? 
+40. How to communicate b/w Microservices? 
+41. What are different types of load balancer? 
+42. what is role and responsibility of API Gateway and explain how to create 
+43. Explain threshold in circuit breaker @CircuitBreaker annotation 
+44. How to do Synchronous communication between microservices ? 
+45. What is distributed tracing(Sleuth) ? 
+46. What is API Documentation(Swagger)? 
+47. Explain @PostConstruct and @PreDestroy, @Async and @EnableAsync  
 48. What are some commonly used protocols in microservices communication? (e.g., HTTP/REST, gRPC, etc.) 
 49. How do you handle inter-service communication? (e.g., synchronous vs. asynchronous, message queues, etc.) 
 50. What are some common tools and frameworks for building microservices? (Spring Boot, Quarkus, Kubernetes, etc.) 
-51. Why we use API Gateway is it used in microservices? 
-52. How would you ensure data consistency across multiple microservices 
-53. Explain the concept of idempotency in microservices and how you’d ensure it for certain operations. 
-54. How to do logger in spring boot 
+51. How would you ensure data consistency across multiple microservices 
+52. Explain the concept of idempotency in microservices and how you’d ensure it for certain operations. 
+
    
